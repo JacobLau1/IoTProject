@@ -1,0 +1,99 @@
+#space{
+    padding: 5px;
+}
+
+body{
+    background-color: #9DB2BF;
+}
+
+.content{
+    display: flex;
+    justify-content: space-between;
+}
+
+#container {
+  width: 400px;
+  height: 200px;
+  position: absolute;
+  top: 30%;
+  left: 50%;
+  overflow: hidden;
+  text-align: center;
+  transform: translate(-50%, -50%);
+}
+
+#left-components {
+    display: flex;
+    justify-content: space-between;
+}
+
+.section-divs-big{
+    background: #27374D;
+    color: white;
+    padding: 10px;
+    margin: 5px;
+    height: 25vh;
+    width: 135vh;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.section-divs-medium{
+    background: #27374D;
+    color: white;
+    padding: 15px;
+    margin: 5px;
+    height: 25vh;
+    width: 80vh;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.section-divs-small{
+    background: #27374D;
+    color: white;
+    padding: 15px;
+    margin: 5px;
+    height: 25vh;
+    width: 65vh;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.section-divs-tall{
+    background: #27374D;
+    color: white;
+    padding: 15px;
+    margin: 5px;
+    height: 53.8vh;
+    width: 40vh;
+    border-radius: 10px;
+    text-align: center;
+}
+
+#temp-fan-section{
+    display: flex;
+}
+
+#temp_termometer{
+    margin-top: 40px;
+}
+
+.fan-image-on {
+    animation: spin 2s linear infinite;
+}
+
+@keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+}
+
+.fan-image-off {
+    nimation-play-state: paused;
+}
+
+#temp_gauge_label{
+    margin-top: 40px;
+    font-size: 24px;
+}
+
